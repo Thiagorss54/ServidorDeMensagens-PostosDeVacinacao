@@ -1,4 +1,4 @@
-# Cliente de testes - TP1
+# Cliente de testes
 
 O cliente de testes realiza alguns dos testes básicos que serão executados durante a avaliação do seu trabalho. Observe que durante a avaliação, poderão ser executados testes adicionais.
 
@@ -20,42 +20,3 @@ Exemplo:
 ```
 python3 run_tests.py /home/aluno/servidor 9999
 ```
-
-## Saída
-A saída do programa indica quais casos de teste foram executados com sucesso e quais falharam.
-Exemplo de saída onde todos casos de teste foram executados com sucesso:
-
-```
-Testing IPv4 single_msg_single_pkg
-test_0	[OK]
-test_1	[OK]
-test_2	[OK]
-test_3	[OK]
-Testing IPv4 single_msg_multiple_pkg
-test_0	[OK]
-test_1	[OK]
-test_2	[OK]
-test_3	[OK]
-Testing IPv4 multiple_msg_single_pkg
-test_0	[OK]
-test_1	[OK]
-test_2	[OK]
-test_3	[OK]
-Testing IPv6 single_msg_single_pkg
-test_0	[OK]
-test_1	[OK]
-test_2	[OK]
-test_3	[OK]
-Testing IPv6 single_msg_multiple_pkg
-test_0	[OK]
-test_1	[OK]
-test_2	[OK]
-test_3	[OK]
-Testing IPv6 multiple_msg_single_pkg
-test_0	[OK]
-test_1	[OK]
-test_2	[OK]
-test_3	[OK]
-```
-
-
